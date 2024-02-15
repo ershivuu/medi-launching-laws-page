@@ -1,0 +1,86 @@
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.step {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  div {
+    margin: auto;
+    text-align: center;
+    max-width: max-content;
+    background-color: #fec00f;
+    padding: 5px 10px 5px 10px;
+    margin-top: 32px;
+  }
+}
+.step-text {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 0.6;
+  font-weight: bold;
+  font-size: 18px;
+  color: #144166;
+  div {
+    p:nth-child(1) {
+      font-weight: bold;
+    }
+  }
+}
+.step-num {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.arrows {
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 23%;
+  padding-right: 23%;
+  margin-top: -150px;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 320px) {
+  .arrows {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .arrows {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+  .arrows {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+  .arrows {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+  .arrows {
+    display: none;
+  }
+}
+
+/* Additional media queries for larger screens can be added if needed */
