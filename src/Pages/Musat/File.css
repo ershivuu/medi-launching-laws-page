@@ -1,19 +1,36 @@
 .sats {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   gap: 50px;
   margin-bottom: 5%;
+  button {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
 }
 .sat-card-1 {
   width: 40%;
   background-color: #f1f1f1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
   padding: 30px 70px 30px 70px;
   border-radius: 30px;
   cursor: pointer;
+  -webkit-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 .sat-card-1:hover {
@@ -27,6 +44,8 @@
   }
 }
 .list {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
   max-width: max-content;
   text-align: center;
   margin: auto;

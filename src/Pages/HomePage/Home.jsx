@@ -15,6 +15,7 @@ import Steps from "../ApplySteps/Steps";
 import ugc from "../../assets/images/UGC_India_Logo.png";
 import toponepercent from "../../assets/logos/top.png";
 import "./Home.css";
+
 import coma from "../../assets/images/coma.png";
 
 import Curriculum from "../Curriculum/Curriculum";
@@ -43,26 +44,18 @@ function Home() {
                   Empowering Dreams <br /> through <br />
                   <span>Top Placements.</span>
                 </p>
-                <div
-                  className="slider-card-1"
-                  style={{ display: "flex", flexWrap: "wrap" }}
-                >
-                  <div>
-                    <img
-                      style={{
-                        width: "100px",
-                        height: "100px",
-                        borderRadius: "50%",
-                        objectFit: "cover",
-                      }}
-                      src={yukta}
-                      alt=""
-                    />
+                <div className="slider-card-1">
+                  <div className="st-img">
+                    <img src={yukta} alt="" />
                   </div>
                   <div className="student-detail">
                     <p> Yukta Kandhari</p>
                     <div>
-                      <img src={toponepercent} alt="" />
+                      <img
+                        style={{ width: "90px", height: "30px" }}
+                        src={toponepercent}
+                        alt=""
+                      />
                     </div>
                     <p> Batch 2023</p>
                     <p> Package 48 LPA</p>
@@ -128,9 +121,7 @@ function Home() {
 
         <div className="apply-btn">
           <button>
-            <a href="#" style={{ color: "white", textDecoration: "none" }}>
-              APPLY NOW
-            </a>
+            <a href="#">APPLY NOW</a>
           </button>
         </div>
 

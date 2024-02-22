@@ -36,7 +36,7 @@ function Curriculum() {
           <div>
             <p>Leading the Future: New Frontiers in Law</p>
             <p>
-               Emerging fields including artificial intelligence and law,
+              Emerging fields including artificial intelligence and law,
               entertainment law, advanced intellectual property law, internet
               law and governance, privacy law, and more are all included in the
               law papers, which forge a route into the future. Here, we create

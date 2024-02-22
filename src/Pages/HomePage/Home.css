@@ -1,7 +1,21 @@
 .container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  background: -o-linear-gradient(left, #144166 0%, rgba(20, 65, 102, 0) 100%),
+    url("../../assets/images/IMG_1585.jpg");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#144166),
+      to(rgba(20, 65, 102, 0))
+    ),
+    url("../../assets/images/IMG_1585.jpg");
   background: linear-gradient(90deg, #144166 0%, rgba(20, 65, 102, 0) 100%),
     url("../../assets/images/IMG_1585.jpg");
   background-size: cover;
@@ -11,46 +25,66 @@
   position: relative;
   z-index: 100;
   background-position: center;
+  -webkit-background-position: center;
 }
 
 #c1-text {
   p {
     font-weight: 600;
     text-transform: uppercase;
+    -webkit-text-transform: uppercase;
     font-size: 20px;
+    -webkit-font-size: 20px;
     line-height: 0.8;
     letter-spacing: 1px;
     word-spacing: 2px;
     color: white;
+    -webkit-color: white;
   }
   span {
     p {
       color: #ffc104 !important;
+      -webkit-color: #ffc104 !important;
       font-size: 45px;
+      -webkit-font-size: 45px;
       font-style: italic;
     }
 
     p:nt-child(3) {
       font-size: 20px;
+      -webkit-font-size: 20px;
     }
   }
 }
 /* ...................... */
 .sliders {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   gap: 50px;
+  -webkit-gap: 50px;
 }
 .slider-card-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   div {
     margin: 10px;
   }
 }
 .slider-card-2 {
   margin-top: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .bar-council {
@@ -63,39 +97,55 @@
   span {
     p {
       color: #ffc104;
+      -webkit-color: #ffc104;
     }
   }
 }
 .slider-heading {
   font-size: 25px;
+  -webkit-font-size: 25px;
   font-weight: 600;
+  -webkit-font-weight: 600;
   color: white;
+  -webkit-color: white;
   line-height: 1;
   text-transform: uppercase;
+  -webkit-text-transform: uppercase;
   span {
     font-size: 30px;
+    -webkit-font-size: 30px;
     text-transform: capitalize;
+    -webkit-text-transform: capitalize;
     color: #ffc104;
+    -webkit-color: #ffc104;
   }
 }
 .student-detail {
   line-height: 0.6;
   color: white;
+  -webkit-color: white;
   font-weight: 400;
+  -webkit-font-weight: 400;
   font-size: 20px;
+  -webkit-font-size: 20px;
   p:nth-child(1) {
     font-size: 25px;
+    -webkit-font-size: 25px;
   }
   div {
     margin-left: -2px;
     width: 100px;
     height: 35px;
     background-color: white;
+    -webkit-background-color: white;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
     img {
       margin-left: 3px;
       margin-top: 1px;
+      -o-object-fit: contain;
       object-fit: contain;
+      -webkit-object-fit: contain;
       width: 90px;
       height: 30px;
     }
@@ -106,10 +156,17 @@
   margin-top: 50px;
 }
 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin: 10px;
+  gap: 30px;
+  -webkit-gap: 30px;
 }
 .slide-card-main {
   margin-top: -25px;
@@ -117,71 +174,117 @@
 
 .card {
   border: none;
+  -webkit-border: none;
   text-align: center;
+  -webkit-text-align: center;
   background-image: url("../../assets/images/black3.png");
   background-position: center;
+  -webkit-background-position: center;
   background-size: cover;
+  -webkit-background-size: cover;
   padding: 5%;
+  margin-bottom: 15px;
+  gap: 30px;
+  -webkit-gap: 30px;
   div {
     margin-top: -30px;
   }
 }
 .card-head {
   font-weight: bold;
+  -webkit-font-weight: bold;
   font-size: 23px;
+  -webkit-font-size: 23px;
 }
 .card-content {
   font-size: 15px;
+  -webkit-font-size: 15px;
 }
 .leaf-img {
   width: 320px;
   height: 300px;
 }
-/* container-2  complete */
+
 .conatiner-3 {
   margin-top: 3%;
   margin-bottom: 3%;
   padding-top: 3%;
   padding-bottom: 3%;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #10375c 100%),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0)),
+      to(#10375c)
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #10375c 100%),
     url("../../assets//images/MU-LAW01.bmp");
   background-position: center;
+  -webkit-background-position: center;
   background-size: cover;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
 }
 .why-law {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   gap: 30px;
+  -webkit-gap: 30px;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .c-3-heading p {
   text-align: center;
+  -webkit-text-align: center;
   font-size: 50px;
+  -webkit-font-size: 50px;
   font-style: italic;
+  -webkit-font-style: italic;
   font-weight: bold;
+  -webkit-font-weight: bold;
   color: white;
+  -webkit-color: white;
 }
 .law-cards {
   width: 350px;
   height: 465px;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-object-fit: contain;
   object-fit: contain;
+  -webkit-object-fit: contain;
 }
 .lc-1 {
   background-image: url("../../assets/images/mask.png");
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
+  -o-object-fit: contain;
   object-fit: contain;
+  -webkit-object-fit: contain;
 }
 .lc-2 {
   background-image: url("../../assets/images/mask2.jpg");
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
+  -o-object-fit: contain;
   object-fit: contain;
 }
 .lc-3 {
   background-image: url("../../assets/images/mask3.jpg");
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 .lc-1:hover {
@@ -197,6 +300,16 @@
 .container-4 {
   margin-top: 8%;
   margin-bottom: 5%;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #10375c 100%),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0)),
+      to(#10375c)
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #10375c 100%),
     url("../../assets//images/MU-LAW01.bmp");
   text-align: center;
@@ -211,14 +324,24 @@
   font-weight: bold;
   font-style: italic;
   color: white;
+  -webkit-font-size: 50px;
+  -webkit-font-weight: bold;
+  -webkit-font-style: italic;
+  -webkit-color: white;
 }
 .sub-c-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
   text-align: left;
+  -webkit-text-align: left;
 }
 .c4-text {
   margin-top: 20px;
@@ -226,6 +349,10 @@
   font-style: italic;
   font-weight: bold;
   color: white;
+  -webkit-font-size: 40px;
+  -webkit-font-style: italic;
+  -webkit-font-weight: bold;
+  -webkit-color: white;
 }
 .c4-num {
   p {
@@ -233,30 +360,32 @@
     font-weight: bold;
     color: white;
     line-height: 0.8;
+    -webkit-font-size: 100px;
+    -webkit-font-weight: bold;
+    -webkit-color: white;
+    -webkit-line-height: 0.8;
   }
   span {
     font-size: 150px;
     color: #ffc104;
+    -webkit-font-size: 150px;
+    -webkit-color: #ffc104;
   }
 }
 
-/* .container-6 {
-  padding: 3%;
-  background-color: #10375c;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  div {
-    margin: 5%;
-  }
-} */
 .c6-sub {
   padding-top: 5%;
   padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   background-color: #10375c;
+  -webkit-background-color: #10375c;
 }
 .chancalor-img {
   width: 350px;
@@ -264,6 +393,7 @@
   border-bottom-right-radius: 200px;
   background-image: url("../../assets//images/Chancellor.JPG");
   background-size: cover;
+  -webkit-background-size: cover;
   background-position: center;
 }
 .chancalor-img:hover {
@@ -275,6 +405,8 @@
   width: 30%;
   p {
     color: white;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     font-weight: 900;
     font-size: 3.5vw;
@@ -297,7 +429,11 @@
 }
 
 .c7-subcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 10px;
   text-align: center;
@@ -308,6 +444,7 @@
   div {
     margin: 20px;
     padding: 15px 50px 15px 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
     color: #2c2c2c;
@@ -325,6 +462,14 @@
 }
 
 .c7-card:hover {
+  background: -o-linear-gradient(top, #ffc104 -13.92%, #144166 104.92%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-13.92%, #ffc104),
+    color-stop(104.92%, #144166)
+  );
   background: linear-gradient(180deg, #ffc104 -13.92%, #144166 104.92%);
 
   color: white;
@@ -349,6 +494,42 @@
 .container-8 {
   margin-bottom: 3%;
   background-size: cover;
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
   background: linear-gradient(180.05deg, rgba(0, 0, 0, 0) 0.03%, #144166 96.36%),
     url("../../assets//images/MU-LAW01.bmp");
   background-position: top;
@@ -362,7 +543,11 @@
   font-style: italic;
 }
 .c8-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 .cari-logo {
@@ -370,7 +555,12 @@
   height: 50px;
 }
 .c8-sub-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -401,6 +591,7 @@
     }
   }
   .container-5 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .list {
@@ -408,6 +599,7 @@
     margin-left: 30%;
   }
   .container-6 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
     div {
@@ -419,6 +611,7 @@
     height: 350px;
   }
   .c7-subcon {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .container-1 {
@@ -453,6 +646,7 @@
     }
   }
   .container-5 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .list {
@@ -460,6 +654,7 @@
     margin-left: 30%;
   }
   .container-6 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .chancalor-img {
@@ -467,6 +662,7 @@
     height: 350px;
   }
   .c7-subcon {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .law-cards {
@@ -518,6 +714,8 @@
   }
   .c4-num {
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin: auto;
     p {
@@ -546,6 +744,7 @@
     }
   }
   .container-5 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .list {
@@ -553,9 +752,11 @@
     margin-left: 30%;
   }
   .container-6 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .c7-subcon {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
@@ -569,6 +770,7 @@
   }
   /* Styles for small desktops and tablets in landscape */
   .container-5 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
@@ -576,9 +778,6 @@
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   /* Styles for larger desktops and laptops */
 }
-
-/* Additional media queries for larger screens can be added if needed */
-/* -------------------------form----------------------------------------------- */
 
 .widget_container {
   padding: 10px 15px;
@@ -590,8 +789,11 @@
   top: 50%;
   right: 0;
   z-index: 50;
-  writing-mode: vertical-rl;
+  transform: rotate(90deg);
+
   button {
+    height: auto;
+    width: auto;
     background-color: #fec00f;
     color: white;
     font-weight: 600;
@@ -600,8 +802,14 @@
     border: none;
     padding: 5px 15px 5px 15px;
     display: block;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    height: 150px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
 
@@ -609,9 +817,27 @@
   width: 450px;
   border: 2px solid white;
   border-radius: 10px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
-  /* background-color: rgba(255, 255, 255, 0.253); */
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding-left: 20px;
   padding-right: 20px;
+}
+.st-img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  -webkit-object-fit: cover;
+  object-fit: cover;
+  img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    -webkit-object-fit: cover;
+    object-fit: cover;
+  }
 }

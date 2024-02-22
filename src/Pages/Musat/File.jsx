@@ -30,12 +30,7 @@ function File() {
               </div>
               <div>
                 <button className="apn-btn" style={{ marginTop: "30px" }}>
-                  <a
-                    href="#"
-                    style={{ color: "black", textDecoration: "none" }}
-                  >
-                    APPLY NOW
-                  </a>
+                  <a href="#">APPLY NOW</a>
                 </button>
               </div>
             </div>
@@ -77,12 +72,7 @@ function File() {
               </div>
               <div>
                 <button className="apn-btn">
-                  <a
-                    href="#"
-                    style={{ color: "black", textDecoration: "none" }}
-                  >
-                    APPLY NOW
-                  </a>
+                  <a href="#">APPLY NOW</a>
                 </button>
               </div>
             </div>

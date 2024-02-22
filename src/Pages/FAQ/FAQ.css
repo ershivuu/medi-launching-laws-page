@@ -28,6 +28,7 @@
 }
 .accordion-header {
   button {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -38,9 +39,12 @@
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("../../assets//logos/minus-sign.png") !important;
+  -webkit-transform: var(--bs-accordion-btn-icon-transform);
+  -ms-transform: var(--bs-accordion-btn-icon-transform);
   transform: var(--bs-accordion-btn-icon-transform);
 }
 .accordion-button::after {
+  -ms-flex-negative: 0;
   flex-shrink: 0;
   width: var(--bs-accordion-btn-icon-width);
   height: var(--bs-accordion-btn-icon-width);
@@ -48,6 +52,8 @@
   background-image: url("../../assets//logos/plus-sign.png") !important;
   background-repeat: no-repeat;
   background-size: var(--bs-accordion-btn-icon-width);
+  -webkit-transition: var(--bs-accordion-btn-icon-transition);
+  -o-transition: var(--bs-accordion-btn-icon-transition);
   transition: var(--bs-accordion-btn-icon-transition);
 }
 
