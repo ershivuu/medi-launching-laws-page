@@ -117,7 +117,7 @@ function Home() {
         </div>
 
         <div className="apply-btn">
-          {/* <button onClick={() => scrollToSection("med-form")}>APPLY NOW</button> */}
+    
           <button onClick={scrollToSection}>APPLY NOW</button>
         </div>
 

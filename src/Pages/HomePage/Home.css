@@ -590,6 +590,64 @@
 .step-container {
   margin-bottom: 3%;
 }
+.apply-btn {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 50;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  margin: 0px;
+  padding: 0;
+  button {
+    height: 124px;
+    width: 22px;
+    background-color: #fec00f;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: block;
+  }
+}
+.c1-section-2 {
+  width: 450px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.st-img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  -webkit-object-fit: cover;
+  object-fit: cover;
+  img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    -webkit-object-fit: cover;
+    object-fit: cover;
+  }
+}
+.widget_container {
+  padding: 10px 15px;
+  background-color: green !important;
+}
+
 @media screen and (max-width: 320px) {
   .chancalor-quote {
     img {
@@ -785,12 +843,7 @@
   /* Styles for larger desktops and laptops */
 }
 
-.widget_container {
-  padding: 10px 15px;
-  background-color: green !important;
-}
-
-.apply-btn {
+/* .apply-btn {
   position: fixed;
   top: 50%;
   right: 0;
@@ -821,33 +874,4 @@ width: 50px;
       text-decoration: none;
     }
   }
-}
-
-.c1-section-2 {
-  width: 450px;
-  border: 2px solid white;
-  border-radius: 10px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.st-img {
-  width: 100px !important;
-  height: 100px !important;
-  border-radius: 50%;
-  -o-object-fit: cover;
-  -webkit-object-fit: cover;
-  object-fit: cover;
-  img {
-    width: 100px !important;
-    height: 100px !important;
-    border-radius: 50%;
-    -o-object-fit: cover;
-    -webkit-object-fit: cover;
-    object-fit: cover;
-  }
-}
+} */
