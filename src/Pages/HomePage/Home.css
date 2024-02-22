@@ -8,13 +8,7 @@
   justify-content: space-around;
   background: -o-linear-gradient(left, #144166 0%, rgba(20, 65, 102, 0) 100%),
     url("../../assets/images/IMG_1585.jpg");
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#144166),
-      to(rgba(20, 65, 102, 0))
-    ),
+  background: -webkit-gradient(linear, left top, right top, from(#144166), to(rgba(20, 65, 102, 0))),
     url("../../assets/images/IMG_1585.jpg");
   background: linear-gradient(90deg, #144166 0%, rgba(20, 65, 102, 0) 100%),
     url("../../assets/images/IMG_1585.jpg");
@@ -212,13 +206,7 @@
   padding-bottom: 3%;
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #10375c 100%),
     url("../../assets//images/MU-LAW01.bmp");
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0)),
-      to(#10375c)
-    ),
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#10375c)),
     url("../../assets//images/MU-LAW01.bmp");
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #10375c 100%),
     url("../../assets//images/MU-LAW01.bmp");
@@ -302,13 +290,7 @@
   margin-bottom: 5%;
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #10375c 100%),
     url("../../assets//images/MU-LAW01.bmp");
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0)),
-      to(#10375c)
-    ),
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#10375c)),
     url("../../assets//images/MU-LAW01.bmp");
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #10375c 100%),
     url("../../assets//images/MU-LAW01.bmp");
@@ -463,13 +445,7 @@
 
 .c7-card:hover {
   background: -o-linear-gradient(top, #ffc104 -13.92%, #144166 104.92%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(-13.92%, #ffc104),
-    color-stop(104.92%, #144166)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-13.92%, #ffc104), color-stop(104.92%, #144166));
   background: linear-gradient(180deg, #ffc104 -13.92%, #144166 104.92%);
 
   color: white;
@@ -529,6 +505,8 @@
       rgba(0, 0, 0, 0) 0.03%,
       #144166 96.36%
     ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(269.95deg, rgba(0, 0, 0, 0) 0.03%, #144166 96.36%),
     url("../../assets//images/MU-LAW01.bmp");
   background: linear-gradient(180.05deg, rgba(0, 0, 0, 0) 0.03%, #144166 96.36%),
     url("../../assets//images/MU-LAW01.bmp");
@@ -789,8 +767,9 @@
   top: 50%;
   right: 0;
   z-index: 50;
-  transform: rotate(90deg);
-
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
   button {
     height: auto;
     width: auto;

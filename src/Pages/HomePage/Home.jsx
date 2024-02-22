@@ -1,12 +1,7 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footers from "../../Components/Footers/Footers";
-import mask1 from "../../assets/images/mask.png";
-import mask2 from "../../assets/images/mask2.jpg";
-import mask3 from "../../assets/images/mask3.jpg";
 import MediStaff from "../Designs/MediStaff";
-import chancalor from "../../assets/images/Chancellor.JPG";
-import logo from "../../assets/logos/money.png";
 import yukta from "../../assets/images/Yukta Khandari.jpg";
 import barcouncil from "../../assets/images/Logo_of_Bar_Council_of_India.png";
 import FAQ from "../FAQ/FAQ";
@@ -15,9 +10,7 @@ import Steps from "../ApplySteps/Steps";
 import ugc from "../../assets/images/UGC_India_Logo.png";
 import toponepercent from "../../assets/logos/top.png";
 import "./Home.css";
-
 import coma from "../../assets/images/coma.png";
-
 import Curriculum from "../Curriculum/Curriculum";
 
 function Home() {
