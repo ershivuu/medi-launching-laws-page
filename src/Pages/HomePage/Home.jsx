@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../../Components/Header/Header";
 import Footers from "../../Components/Footers/Footers";
 import MediStaff from "../Designs/MediStaff";
@@ -14,6 +14,10 @@ import coma from "../../assets/images/coma.png";
 import Curriculum from "../Curriculum/Curriculum";
 
 function Home() {
+  const enquirform = useRef(null);
+  const scrollToSection = (id) => {
+    enquirform.current.scrollIntoView({ behaviour: "smooth" });
+  };
   return (
     <>
       <div>
@@ -101,8 +105,8 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="c1-section-2">
-            <div id="c1-text">
+          <div className="c1-section-2" ref={enquirform}>
+            <div id="med-form">
               <div
                 className="npf_wgts "
                 data-height="450px"
@@ -113,9 +117,8 @@ function Home() {
         </div>
 
         <div className="apply-btn">
-          <button>
-            <a href="#">APPLY NOW</a>
-          </button>
+          {/* <button onClick={() => scrollToSection("med-form")}>APPLY NOW</button> */}
+          <button onClick={scrollToSection}>APPLY NOW</button>
         </div>
 
         <div className="container-2">
