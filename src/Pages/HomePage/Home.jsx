@@ -117,7 +117,6 @@ function Home() {
         </div>
 
         <div className="apply-btn">
-    
           <button onClick={scrollToSection}>APPLY NOW</button>
         </div>
 
