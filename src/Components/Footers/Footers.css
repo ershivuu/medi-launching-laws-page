@@ -21,11 +21,11 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-around;
-  font-family: "Open Sans", sans-serif;
   position: relative;
   z-index: 10;
   padding-left: 5%;
   padding-right: 5%;
+  font-family: "metropolis";
 }
 .footer-2 {
   display: -webkit-box;
@@ -56,7 +56,6 @@
 .c-heading,
 .info-heading {
   font-size: 25px;
-  /* margin-bottom: 1px; */
 }
 .further-info {
   color: white;
@@ -85,10 +84,8 @@
   .f-white-logo {
     margin-bottom: 20px;
   }
-  .f-contact-us {
-    p {
-      text-align: center;
-    }
+  .f-contact-us p {
+    text-align: center;
   }
   .further-info {
     margin-top: 20px;

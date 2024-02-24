@@ -42,16 +42,16 @@
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   color: #144166;
-  p:nth-child(1) {
-    font-weight: bold;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
-  p:nth-child(2) {
-    font-weight: 400;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
+}
+.curri-cards p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.curri-cards p:nth-child(2) {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 .curri-card {
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -67,9 +67,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 400px;
-  div {
-    padding: 20px;
-  }
+
   background: -o-linear-gradient(top, #ffffff 0%, #144166 207.23%);
   background: -webkit-gradient(
     linear,
@@ -80,38 +78,34 @@
   );
   background: linear-gradient(180deg, #ffffff 0%, #144166 207.23%);
 }
+.curri-card div {
+  padding: 20px;
+}
 .cari-logo {
   width: 50px;
   height: 50px;
 }
 @media screen and (max-width: 320px) {
-  .curriculum-heading {
-    p {
-      font-size: 30px !important;
-    }
+  .curriculum-heading p {
+    font-size: 30px !important;
   }
   .curri-card {
     width: 300px;
   }
 }
-
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .curri-card {
     width: 300px;
   }
-  .curriculum-heading {
-    p {
-      font-size: 30px !important;
-    }
+  .curriculum-heading p {
+    font-size: 30px !important;
   }
 }
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .curri-card {
     width: 300px;
   }
 }
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   /* Styles for small desktops and tablets in landscape */
 }
@@ -119,5 +113,3 @@
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   /* Styles for larger desktops and laptops */
 }
-
-/* Additional media queries for larger screens can be added if needed */

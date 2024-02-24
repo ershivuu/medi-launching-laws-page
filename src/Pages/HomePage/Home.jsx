@@ -9,7 +9,8 @@ import File from "../Musat/File";
 import Steps from "../ApplySteps/Steps";
 import ugc from "../../assets/images/UGC_India_Logo.png";
 import toponepercent from "../../assets/logos/top.png";
-import "./Home.css";
+// import "./Home.css";
+import "./Advance.css";
 import coma from "../../assets/images/coma.png";
 import Curriculum from "../Curriculum/Curriculum";
 
@@ -29,9 +30,9 @@ function Home() {
             <div id="c1-text">
               <p>Pursue a Degree in Law</p>
               <span>
-                <p> AT MEDICAPS,</p>
+                <p style={{ fontSize: "25px" }}> AT MEDICAPS,</p>
                 <p> THE NO. 1</p>
-                <p style={{ fontSize: "25px" }}> PRIVATE UNIVERSITY</p>
+                <p style={{ fontSize: "45px" }}> PRIVATE UNIVERSITY</p>
               </span>
               <p> for Law Studies in India.</p>
             </div>
@@ -63,7 +64,7 @@ function Home() {
                 <div className="slide-card-main">
                   <div className="slider-card-2">
                     <div className="bar-council">
-                      <p>ACCREDITED BY</p>
+                      <p>APPROVED BY</p>
                       <span>
                         <p>BCI (BAR </p>
                         <p>COUNCIL OF </p>
@@ -83,7 +84,7 @@ function Home() {
                   </div>
                   <div className="slider-card-2">
                     <div className="bar-council">
-                      <p>ACCREDITED BY</p>
+                      <p>APPROVED BY</p>
                       <span>
                         <p>UGC (University </p>
                         <p>Grants </p>
@@ -123,7 +124,7 @@ function Home() {
         <div className="container-2">
           <div className="cards">
             <div className="card">
-              <div>
+              <div className="card-sub-div">
                 <p className="card-head">RANKED 1st</p>
                 <p className="card-content">
                   In Placement in Madhya Pradesh <br /> by Times Engineering
@@ -132,7 +133,7 @@ function Home() {
               </div>
             </div>
             <div className="card">
-              <div>
+              <div className="card-sub-div">
                 <p className="card-head">RANKED 32nd</p>
                 <p className="card-content">
                   In Placement in India by i3RC <br /> Times Engineering Survey
@@ -141,9 +142,9 @@ function Home() {
               </div>
             </div>
             <div className="card">
-              <div>
+              <div className="card-sub-div">
                 <p className="card-head">
-                  HIGHEST <br /> PLACEMENTS{" "}
+                  HIGHEST <br /> PLACEMENTS
                 </p>
                 <p className="card-content">
                   Offers by The Companies <br /> in MP, CG
@@ -155,7 +156,7 @@ function Home() {
 
         <div className="conatiner-3" id="whyus">
           <div className="c-3-heading">
-            <p>WHY LAW AT MEDI-CAPS</p>
+            <p>WHY LAW AT MEDICAPS?</p>
           </div>
           <div className="why-law">
             <div className="law-cards lc-1"></div>
@@ -175,7 +176,7 @@ function Home() {
             <div>
               <p className="c4-text">
                 SEIZE YOUR SEAT & <br /> GET A GOLDEN CHANCE TO <br /> EARN
-                SCHOLARSHIP
+                SCHOLARSHIP UPTO
               </p>
             </div>
             <div className="c4-num">

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./MediStaff.css";
 import Laxshmikant from "../../assets/images/Laxmikant Soni.jpg";
-import mulaw from "../../assets/images/MU-LAW01.bmp";
+import mulaw from "../../assets/images/con1.jpg";
 import globalintern from "../../assets/images/Global-Internships-&-Placements.jpg";
 import girl from "../../assets/images/Vertical-image.jpg";
 import group from "../../assets/images/group.jpg";

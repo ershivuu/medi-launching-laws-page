@@ -1,5 +1,6 @@
 import React from "react";
-import "./Curriculum.css";
+// import "./Curriculum.css";
+import "./AdvanceCurriculum.css";
 import logo from "../../assets/logos/money.png";
 import morallogo from "../../assets/logos/Morale.png";
 import law from "../../assets/logos/Law.png";

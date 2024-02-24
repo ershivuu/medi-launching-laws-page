@@ -20,22 +20,18 @@
 }
 .accordion-body {
   background-color: #ffffff !important;
-  /* margin-left: -19.1%; */
   border-radius: 10px !important;
-  p {
-    font-size: 15px;
-  }
 }
-.accordion-header {
-  button {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    border-radius: 10px !important;
-    background-color: white !important;
-  }
+.accordion-body p {
+  font-size: 15px;
+}
+.accordion-header button {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 10px !important;
+  background-color: white !important;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("../../assets//logos/minus-sign.png") !important;
@@ -63,12 +59,9 @@
   text-align: center;
   color: #144166;
   font-size: 50px;
-  font-weight: bold;
-  font-style: italic;
+  font-family: "metropolis-bold";
 }
-/* .faq-elements {
-  position: absolute;
-} */
+
 .leaf {
   position: absolute;
   left: 0;
@@ -96,7 +89,6 @@
 }
 
 @media screen and (max-width: 320px) {
-  /* Styles for smaller smartphones */
   .faq-elements {
     display: none;
   }
@@ -121,5 +113,4 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-  /* Styles for larger desktops and laptops */
 }

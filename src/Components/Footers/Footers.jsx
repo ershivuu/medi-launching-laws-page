@@ -119,7 +119,7 @@ function Footers() {
               textDecoration: "none",
             }}
           >
-            <p id="privacy">Privacy Policy | Terms of uses</p>
+            <p id="privacy">Privacy Policy | Terms of Use</p>
           </a>
         </div>
       </div>
