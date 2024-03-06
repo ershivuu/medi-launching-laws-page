@@ -53,6 +53,12 @@
   color: white;
   font-size: 15px;
 }
+.flex-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .c-heading,
 .info-heading {
   font-size: 25px;
@@ -84,7 +90,7 @@
   .f-white-logo {
     margin-bottom: 20px;
   }
-  .f-contact-us p {
+  .f-contact-us {
     text-align: center;
   }
   .further-info {

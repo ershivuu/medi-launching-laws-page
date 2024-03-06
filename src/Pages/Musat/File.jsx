@@ -1,6 +1,5 @@
 import React from "react";
 import "./AdvanceFile.css";
-// import "./File.css";
 
 function File() {
   return (

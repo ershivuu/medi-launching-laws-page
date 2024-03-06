@@ -9,12 +9,16 @@ import File from "../Musat/File";
 import Steps from "../ApplySteps/Steps";
 import ugc from "../../assets/images/UGC_India_Logo.png";
 import toponepercent from "../../assets/logos/top.png";
-// import "./Home.css";
+
 import "./Advance.css";
 import coma from "../../assets/images/coma.png";
 import Curriculum from "../Curriculum/Curriculum";
 
 function Home() {
+   if (!sessionStorage.getItem("hasRefreshed")) {
+    sessionStorage.setItem("hasRefreshed", "true");
+    window.location.reload();
+  }
   const enquirform = useRef(null);
   const scrollToSection = (id) => {
     enquirform.current.scrollIntoView({ behaviour: "smooth" });
@@ -109,9 +113,9 @@ function Home() {
           <div className="c1-section-2" ref={enquirform}>
             <div id="med-form">
               <div
-                className="npf_wgts "
+                class="npf_wgts"
                 data-height="450px"
-                data-w="27df0493d345ec202380c6083f61d119"
+                data-w="3dd35188e1d58453c568795b929814f6"
               ></div>
             </div>
           </div>
@@ -208,7 +212,7 @@ function Home() {
           <div className="c7-head">
             <p>PROGRAMS OFFERED</p>
           </div>
-          <div className="c7-subcon ">
+          <div className="c7-subcon">
             <div className="c7-card">
               <p>B.A - LL.B.</p>
               <p>

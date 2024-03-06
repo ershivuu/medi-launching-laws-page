@@ -12,6 +12,7 @@ import whatlogo from "../../assets/logos/whatsapp.png";
 import emaillogo from "../../assets/logos/mail.png";
 
 function Footers() {
+  const phoneNumber = "07969024451";
   return (
     <>
       <div className="footer">
@@ -20,29 +21,34 @@ function Footers() {
         </div>
         <div className="f-contact-us">
           <p className="c-heading">ADDRESS</p>
-          <div style={{ display: "flex" }}>
+          <div className="flex-div">
             <div>
               <img src={locationlogo} className="other-logos loc-logo" alt="" />
             </div>
             <div>
-              <p>
-                Medi-Caps University A.B. Road,Pigdamber,Rau <br /> Indore
+              <span>
+                MediCaps University A.B. Road, Pigdamber, Rau <br /> Indore
                 453331
-              </p>
+              </span>
             </div>
           </div>
         </div>
         <div className="further-info">
           <p className="info-heading">CONTACT US</p>
-          <div style={{ display: "flex" }}>
+          <div className="flex-div" style={{ marginBottom: "10px" }}>
             <div>
               <img src={tel} className="other-logos" alt="" />
             </div>
             <div>
-              <p>07969024451</p>
+              <a
+                href={`tel:${phoneNumber}`}
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                {phoneNumber}
+              </a>
             </div>
           </div>
-          <div style={{ display: "flex" }}>
+          <div className="flex-div">
             <div>
               <img src={whatlogo} className="other-logos" alt="" />
             </div>
@@ -56,7 +62,7 @@ function Footers() {
               </a>
             </div>
           </div>
-          <div style={{ display: "flex" }}>
+          <div className="flex-div">
             <div>
               <img src={emaillogo} className="other-logos" alt="" />
             </div>
