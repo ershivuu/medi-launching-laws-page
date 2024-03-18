@@ -44,13 +44,13 @@ function File() {
               </div>
               <div>
                 <p className="card-heading">MU-SAT PHASE-2</p>
-                <p className="card-text">Mock Test: 30th & 31st May, 2024</p>
-                <p className="card-text">Final Test: 1st & 2nd June, 2024</p>
+                <p className="card-text">Mock Test: 18th &19th June, 2024</p>
+                <p className="card-text">Final Test: 20th & 21st June, 2024</p>
               </div>
               <div>
                 <p className="card-heading">MU-SAT PHASE-3</p>
-                <p className="card-text">Mock Test: 30th & 31st May, 2024</p>
-                <p className="card-text">Final Test: 1st & 2nd June, 2024</p>
+                <p className="card-text">Mock Test: 16th-August-2024</p>
+                <p className="card-text">Final Test: 17th-August-2024</p>
               </div>
 
               <div>

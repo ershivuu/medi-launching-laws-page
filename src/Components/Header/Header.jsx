@@ -33,9 +33,27 @@ function Header() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      setIsSticky(window.pageYOffset > sticky);
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // Empty dependency array ensures this effect runs only once
+
+  const sticky = 0; // Assuming sticky header starts at the top
 
   return (
     <>
+      <div className={`ribbon fixed-top ${scrolling ? "scrolled" : ""}`}>
+        <p> Contact Us: admission@medicaps.ac.in | Call: 07969024451</p>
+      </div>
       <div className={`my-header fixed-top ${scrolling ? "scrolled" : ""}`}>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
